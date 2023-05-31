@@ -133,13 +133,14 @@ nav a:hover {
 }
 
 .home-grid {
+
   background-color: aliceblue;
   justify-content: center;
   text-align: center;
 }
 
 .home-grid p {
-  margin: 30px 500px 30px 500px;
+  margin: 30px 100px 30px 100px;
   padding-top: 100px;
   line-height: 60px;
   font-size: 40px;
@@ -167,7 +168,7 @@ nav a:hover {
   background-color: #a1c7e0;
   color: #244963;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
   font-family: "Playfair Display Bold 700", Playfair Display, sans-serif;
 
 }
@@ -177,7 +178,7 @@ nav a:hover {
 }
 
 #aboutme-button h4, #contact-button h4 {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Playfair Display Bold 700", Playfair Display, sans-serif;
 } 
 
