@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="content">
-        <header>
+        <header id="navigation">
             <a id="logo-link" href="portfolio.html">
                 <img class="logo" src="images/portfolio-logo.png" alt="Portfolio logo"> 
             </a>
@@ -19,38 +19,40 @@
                 <a href="contactme.html">Contact</a>
             </nav>
         </header>
-        <div id="welcome-box">
-            <div id="welcome-image">
-                <img class="profile-img" src="images/headshot_copy.jpeg" alt="profile">
+        <div id="welcome">
+            <div id="welcome-box">
+                <img id="welcome-img" src="images/headshot_copy.jpeg" alt="profile">
             </div>
-            <div class="welcome-msg">
+            <div id="welcome-msg">
                 <h1>Welcome</h1>
-                <h4>        Hello, my name is Kaitlyn-marie Kryzanski, welcome to my personal website.</h4>
+                <h4>Hello, my name is Kaitlyn-marie Kryzanski, welcome to my personal website.</h4>
             </div>
         </div>
 
         <main class="home-grid">
-            <p class="about-me-para">
+            <p>
                 I created this website in order to not only showcase my skills thus far in Web Development,
                 but to also create a platform wherein I would be able to more easily connect with those
                 interested in both my services and background.
             </p>
             <p>
                 In this website you will find a page with further information 'about me', including
-                an outline of my resume, as well a page with all of my contact information.
+                an outline of my resume with a list of references, as well a page with all of my contact information.
             </p>
-
-            <section class="page-button">
-                <a class="aboutme-button" href="aboutme.html">About me</a>
-                <h4>Here you can find information about me, as well as a resume</h4>
-            </section>
-            <section class="page-button">
-                <a class="contact-button" href="contactme.html">Contact</a>
-                <h4>Here you can find my contact information</h4>
-            </section>
-
-            <div id="img-p1">
-                <img class="homepage-img" src="images/lighthouse.png" alt="image for homepage">
+            <div id="button-box">
+                <section id="aboutme-button">
+                    <a class="aboutme-button" href="aboutme.html">About me</a>
+                    <h4>Here you can find information about me</h4>
+                </section>
+                <section id="contact-button">
+                    <a class="contact-button" href="contactme.html">Contact</a>
+                    <h4>Here you can find my contact information</h4>
+                </section>
+            </div>
+            <div id="bottom-img-box">
+                <div id="bottom-img">
+                    <img class="homepage-img" src="images/lighthouse.png" alt="image for homepage">
+                </div>
             </div>
         </main>
 
