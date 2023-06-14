@@ -242,6 +242,7 @@ nav a:hover {
   font-size: 10px;
   color: #4c3e37;
   font-family: "Playfair Display Bold 700", Playfair Display;
+  text-align: right;
 }
 
 #p1-box {
@@ -255,6 +256,9 @@ nav a:hover {
   border-radius: 7px;
 }
 
+#p1 p {
+  padding-right: 30px;
+}
 
 
 
@@ -276,6 +280,7 @@ nav a:hover {
   font-size: 10px;
   color: #4c3e37;
   font-family: "Playfair Display Bold 700", Playfair Display;
+  text-align: left;
 }
 
 #p2-box {
@@ -296,7 +301,7 @@ nav a:hover {
   grid-row: 2/3;
   line-height: 27px;
   margin-top: 10px;
-  margin-left: 20px;
+  padding-left: 30px;
 }
 
 #p2-p2{
@@ -304,7 +309,7 @@ nav a:hover {
   grid-row: 3/4;
   line-height: 27px;
   margin-top: 10px;
-  margin-left: 20px;
+  padding-left: 30px;
 }
 
 
